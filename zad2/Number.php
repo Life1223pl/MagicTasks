@@ -50,7 +50,12 @@ class Number
         return $numberObject;
     }
 
+    public function Sum($first,$second,$third,$fourth){
 
+        $sum = $first + $second + $third + $fourth;
+
+        return $sum;
+    }
 
 
 }

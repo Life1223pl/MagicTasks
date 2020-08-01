@@ -1,6 +1,7 @@
 <?php
+require_once 'NumberFormater.php';
 
-class RomanFormatter
+class RomanFormatter implements NumberInterface
 {
     public function formatIntToRoman($integer){
         $integer = intval($integer);
@@ -37,5 +38,9 @@ class RomanFormatter
     }
 
 
-
+    public function transferToString($int): String
+    {
+        $ConvertedString = strval($int);
+        return $ConvertedString;
+    }
 }

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f163dad0-67f4-41f0-b244-757a379288d4" name="Default Changelist" comment="" />
+    <list default="true" id="f163dad0-67f4-41f0-b244-757a379288d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Number.php" beforeDir="false" afterPath="$PROJECT_DIR$/Number.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumberFormater.php" beforeDir="false" afterPath="$PROJECT_DIR$/NumberFormater.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RomanFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/RomanFormatter.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +20,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1fPEeuGZME4mCbMEKnQ4QDMNF1I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,8 +32,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zad1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596111425930</updated>
       <workItem from="1596111427056" duration="11311000" />
+      <workItem from="1596268596051" duration="1633000" />
     </task>
     <servers />
   </component>
@@ -53,9 +67,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="292" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596125829257" />
-    <state x="753" y="427" key="NewPhpFileDialog" timestamp="1596125806005">
+    <state x="753" y="427" key="NewPhpFileDialog" timestamp="1596269726275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="427" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596125806005" />
+    <state x="753" y="427" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596269726275" />
+    <state x="580" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1596268611260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596268611260" />
   </component>
 </project>
