@@ -1,0 +1,17 @@
+{
+    "name": "dawid/new-zad2",
+    "authors": [
+        {
+            "name": "Dawid Pawlisz",
+            "email": "daw_pl@interia.pl"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NumberApp\\": "src/"
+        }
+    }
+}
