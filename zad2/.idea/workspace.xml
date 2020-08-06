@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f163dad0-67f4-41f0-b244-757a379288d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numbers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Controllers/SectionAController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Controllers/SectionBController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Controllers/SectionCController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Entity/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Entity/Lista.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Entity/Section.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Entity/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Interfaces/listInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Interfaces/listQueue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad3/Templates/sectionA.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number.php" beforeDir="false" afterPath="$PROJECT_DIR$/Number.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumberFormater.php" beforeDir="false" afterPath="$PROJECT_DIR$/NumberFormater.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RomanFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/RomanFormatter.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../symphart" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,7 +51,9 @@
       <option name="presentableId" value="Default" />
       <updated>1596111425930</updated>
       <workItem from="1596111427056" duration="11311000" />
-      <workItem from="1596268596051" duration="1633000" />
+      <workItem from="1596268596051" duration="1770000" />
+      <workItem from="1596615649451" duration="112000" />
+      <workItem from="1596616234579" duration="604000" />
     </task>
     <servers />
   </component>
@@ -59,10 +65,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="168" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596114491925" />
-    <state x="690" y="217" key="FileChooserDialogImpl" timestamp="1596117593314">
+    <state x="690" y="217" key="FileChooserDialogImpl" timestamp="1596616836408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="217" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596117593314" />
+    <state x="690" y="217" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596616836408" />
     <state x="752" y="292" key="NewPhpClassDialog" timestamp="1596125829257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -71,9 +77,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="427" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596269726275" />
-    <state x="580" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1596268611260">
+    <state x="580" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1596616236045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="580" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596268611260" />
+    <state x="580" y="302" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596616236045" />
   </component>
 </project>
