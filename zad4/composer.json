@@ -1,0 +1,14 @@
+{
+    "name": "dawid_pawlisz/zad4",
+    "description": "this is zad4 to do",
+    "require": {
+        "twig/twig": "^3.2",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
