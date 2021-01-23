@@ -5,7 +5,7 @@ namespace App\Api;
 
 use App\Connect\Connect;
 
-class API{
+class Api{
     function SetStatus($status,$user_email){
         $db = new Connect();
         $data = $db->prepare('UPDATE user SET status = :status WHERE email = :user_email');
