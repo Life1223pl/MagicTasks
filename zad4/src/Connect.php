@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Connect;
+namespace App;
 
 use PDO;
 

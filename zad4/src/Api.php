@@ -1,9 +1,10 @@
 <?php
 
 
-namespace App\Api;
+namespace App;
 
-use App\Connect\Connect;
+use App\Connect;
+use PDO;
 
 class Api{
     function SetStatus($status,$user_email){
