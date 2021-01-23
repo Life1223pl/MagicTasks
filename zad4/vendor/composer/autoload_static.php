@@ -21,6 +21,10 @@ class ComposerStaticInit6128e2890c036fe53f5b7af183a23311
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
         ),
+        'C' => 
+        array (
+            'Composer\\Installers\\' => 20,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -40,10 +44,18 @@ class ComposerStaticInit6128e2890c036fe53f5b7af183a23311
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Composer\\Installers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+    );
+
+    public static $classMap = array (
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -51,6 +63,7 @@ class ComposerStaticInit6128e2890c036fe53f5b7af183a23311
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit6128e2890c036fe53f5b7af183a23311::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit6128e2890c036fe53f5b7af183a23311::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit6128e2890c036fe53f5b7af183a23311::$classMap;
 
         }, null, ClassLoader::class);
     }
